@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Beautiful NTB</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/icon.png" rel="icon">
+    <link href="assets/img/bigicon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/contact.css" rel="stylesheet">
+  <link href="assets/css/header.css" rel="stylesheet">
+  <link href="assets/css/footer.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--=============== HEADER ===============-->
+ <header class="header" id="header">
+  <nav class="nav container">
+      <a href="index.html" class="nav__logo">Beatiful-NTB</a>
+
+      <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+              <li class="nav__item">
+                    <a href="index.html" class="nav__link">
+                      <i class='bx bx-home-alt nav__icon'></i>
+                      <span class="nav__name">Home</span>
+                  </a>
+              </li>
+              
+              <li class="nav__item">
+                  <a href="about.html" class="nav__link">
+                      <i class='bx bx-user nav__icon'></i>
+                      <span class="nav__name">About</span>
+                  </a>
+              </li>
+
+              <li class="nav__item">
+                  <a href="service.html" class="nav__link">
+                      <i class='bx bx-book-alt nav__icon'></i>
+                      <span class="nav__name">Service</span>
+                  </a>
+              </li>
+
+              <li class="nav__item">
+                  <a href="gallery.html" class="nav__link">
+                      <i class='bx bx-briefcase-alt nav__icon'></i>
+                      <span class="nav__name">Gallery</span>
+                  </a>
+              </li>
+
+              <li class="nav__item">
+                  <a href="contact.html" class="nav__link active-link">
+                      <i class='bx bx-message-square-detail nav__icon'></i>
+                      <span class="nav__name">Contact</span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+
+      <img src="assets/img/perfil.png" alt="" class="nav__img">
+  </nav>
+</header>
+
+<!-- End Header -->
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>Contact</h2>
+            <p>"Butuh informasi lebih lanjut? Silakan hubungi kami untuk rincian tambahan."
+              "Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk bertanya."</p>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container-contact">
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-3">
+            <div class="info-item d-flex">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h4>Location:</h4>
+                <p>Nusa Tenggara Barat - Indonesia</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3">
+            <div class="info-item d-flex">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h4>Email:</h4>
+                <p>infontb@Beatiful-NTB.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3">
+            <div class="info-item d-flex">
+              <i class="bi bi-phone flex-shrink-0"></i>
+              <div>
+                <h4>Call:</h4>
+                <p>+6236- 35 231 </p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <div class="row justify-content-center mt-4">
+
+          <div class="col-lg-9">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- Footer Section -->
+        <footer class="footer">
+          <div class="container-footer">
+              <div class="footer-content">
+                  <div class="footer-logo">
+                      <a href="index.html">Beautiful-NTB</a>
+                      <p>Institut Teknologi Adhitama Surabaya</p>
+                  </div>
+                  <div class="footer-social">
+                      <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+                      <a href="#" target="_blank"><i class="bx bxl-twitter"></i></a>
+                      <a href="#" target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+              </div>
+              <div class="footer-bottom">
+                  <p>&copy; 2024 Beautiful-NTB. All Rights Reserved.</p>
+              </div>
+          </div>
+
+
+  <div id="preloader">
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/header.js"></script>
+
+</body>
+
+</html>
